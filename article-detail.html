@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="css/articleDetail.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/articleDetail.css"/>
     <title>R4S Blog Website</title>
 </head>
 <body>
-    <div class="container">
+    <div class="main">
         <div class="header item">
             <div class="blog-name">
                 <span>RUN FOR SELF</span>
@@ -17,55 +19,71 @@
             <nav class="navigation">
                 <ul id="menu-site">
                     <li>
-                        <a href="" class="menu">Home</a>
+                        <a href="../udaProject1/index.html" class="menu">Home</a>
                     </li>
                     <li>
-                        <a href="" class="menu">Gallerry</a>
+                        <a href="#" class="menu">Gallerry</a>
                     </li>
                     <li>
-                        <a href="" class="menu">Race</a>
+                        <a href="#" class="menu">Race</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="sidebar item">
+        <div class="aside item">
             <img src="images/pro5.jpeg" alt="suonrym" class="article-image">
             <table class="profile-content">
                 <tr>
-                    <td>Nick name: </td>
-                    <td>SuonRym</td>
+                    <td class="colNm">Name: </td>
+                    <td>Long Tran Phi</td>
                 </tr>
                 <tr>
-                    <td>StravaId: </td>
+                    <td class="colNm">Nick name: </td>
+                    <td>Suon Rym</td>
+                </tr>
+                <tr>
+                    <td class="colNm">Company: </td>
+                    <td>FPT SOFTWARE DANANG</td>
+                </tr>
+                <tr>
+                    <td class="colNm">StravaId: </td>
                     <td><a href="https://www.strava.com/athletes/41320672">Phi Long</a></td>
                 </tr>
                 <tr>
-                    <td>Half Marathon: </td>
+                    <td class="colNm">Half Marathon: </td>
                     <td>2:02:14</td>
                 </tr>
                 <tr>
-                    <td>Full Marathon: </td>
+                    <td class="colNm">Full Marathon: </td>
                     <td>#N/A</td>
+                </tr>
+                <tr>
+                    <td class="colNm">Short bio: </td>
+                    <td>I love running and overcoming myself. I bring that into my work every day.</td>
                 </tr>
             </table>
         </div>
         <div class="card-article item">
             <div class="article">
-                <img src="images/kipchoge.jpg" alt="bekele" class="article-image">
+                <figure>
+                    <img src="images/kipchoge.jpg" alt="bekele" class="article-image">
+                    <figcaption>Kipchoge ran a Marathon in under 2 hours</figcaption>
+                </figure>
                 <div class="article-content">
-                    <p class="article-catch">At his training camp Kaptagat in the Kenyan highlands, Kipchoge, who is guided by his mentor and coach Patrick Sang, sticks to a training programme that he follows religiously. On paper, it may seem repetitious and even boring. But those simple habits have been a core part of his marathon success that has seen him win 15 of 17 marathon races.
+                    <h2>Inside Kenya’s training camp Kaptagat, home to the champions</h2>
+                    <p class="article-catch">At his training camp Kaptagat in the <b>Kenyan highlands</b>, Kipchoge, who is guided by his mentor and coach Patrick Sang, sticks to a training programme that he follows religiously. On paper, it may seem repetitious and even boring. But those simple habits have been a core part of his marathon success that has seen him win 15 of 17 marathon races.
 
                         Like most elite athletes, his training involves a ton of running, some track sessions for speed and exercising his core.
                         
-                        There’s the famed long run, which he does once every two weeks and ranges between 30km and 40km. Most of his training consists of several slow runs and one or two fartlek sessions (speed sessions on track).
+                        <q cite="https://www.ineos159challenge.com/news/behind-the-scenes-in-eliuds-camp/">There’s the famed long run, which he does once every two weeks and ranges between 30km and 40km. Most of his training consists of several slow runs and one or two fartlek sessions (speed sessions on track).</q>
                         
                         His training is spaced out and he never does back-to-back high intensity sessions.
                         
-                        Kipchoge and his crew at the Global Sports Communication started by Sang, an Olympic silver medallist in the steeplechase, have perfected the "80%-20%" method preferred by many elite distance runners.</p>
+                        Kipchoge and his crew at the <u>Sports Communication</u> started by Sang, an Olympic silver medallist in the steeplechase, have perfected the <i>"80%-20%"</i> method preferred by many elite distance runners.</p>
                 </div>
             </div>
         </div>
-        <div class="footer item">
+        <footer>
             <div class="follow-me">
                 <ul class="social">
                     <li>
@@ -85,7 +103,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </footer>
       </div>
 </body>
 </html>

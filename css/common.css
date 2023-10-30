@@ -8,40 +8,7 @@ body {
     padding: 0 20px 0 20px;
 }
 
-.header {
-    grid-area: header;
-    background-color: #121826;
-    border-radius: 12px;
-    overflow: hidden;
-    display: flex;
-}
-.blog-name {
-    padding: 20px;
-}
-.header.item span {
-    color: white;
-    font: -webkit-small-control;
-    font-size: xx-large;
-    font-weight: bold;
-    width: 100%;
-    height: auto;
-}
-.navigation {
-    align-self: center;
-}
-#menu-site {
-    display: flex;
-    list-style: none;
-}
-.menu {
-    color: white;
-    font: -webkit-small-control;
-    font-size: medium;
-    text-decoration: none;
-    padding: 0 5px 0 5px;
-}
-
-.sidebar {
+.aside {
     grid-area: list-article;
     background-color: #121826;
     border-radius: 12px;
@@ -54,26 +21,11 @@ body {
     font-size: small;
     padding: 0 5px 0 5px;
 }
-
-.footer {
-    grid-area: footer;
-    background-color: #121826;
-    border-radius: 12px;
-    overflow: hidden;
+.aside td {
+    vertical-align: top;
 }
-.follow-me {
-    padding: 20px 0 20px 0;
-    text-align: center;
-}
-.social {
-    display: inline-flex;
-    list-style: none;
-}
-.social-image {
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-    margin: 5px;
+.aside .colNm {
+    font-weight: bold;
 }
 
 @media(max-width: 900px) {
@@ -82,7 +34,7 @@ body {
         height: auto;
     }
 
-    .sidebar {
+    .aside {
         grid-area: list-article;
         background-color: #121826;
         width: 100%;
